@@ -347,4 +347,44 @@ nav > div {
     background-color: #181818;
     box-shadow: 0px 1px 5px 2px whitesmoke ;
 }
+/* education  */
+
+.education{
+    display : flex ;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap: 2vh;
+    background-color: #181818;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.education > div {
+    display : flex ;
+    justify-content: center;
+    align-items: center; 
+    background-color: #DFD7BF;
+    color:#181818;
+    border-radius: 10px;
+    gap: 5vw;
+}
+
+#college_image{
+    width : 40% ;
+    padding: 3vh;
+    
+}
+
+#college_desc{
+    font-size: 20px;
+    color : darkblue;
+    
+}
+
+#college_desc span{
+    color : green;
+    
+}
 
