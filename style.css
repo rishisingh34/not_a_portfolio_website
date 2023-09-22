@@ -1,7 +1,20 @@
 html{
     overflow: auto;
 }
+body{
+    animation : transitionIN 0.75s ;
+}
 
+@keyframes transitionIN {
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 
 /*  header section   */
 
@@ -365,13 +378,14 @@ nav > div {
     display : flex ;
     justify-content: center;
     align-items: center; 
-    background-color: #DFD7BF;
+    background-color: #4D2DB7;
     color:#181818;
     border-radius: 10px;
     gap: 5vw;
 }
 
 #college_image{
+    border-radius: 50px;
     width : 40% ;
     padding: 3vh;
     
@@ -379,12 +393,14 @@ nav > div {
 
 #college_desc{
     font-size: 20px;
-    color : darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color : rgb(230, 176, 176);
     
 }
 
 #college_desc span{
-    color : green;
+    color : rgb(236, 188, 188);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
